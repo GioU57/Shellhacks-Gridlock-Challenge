@@ -7,17 +7,6 @@ from io import StringIO
 
 # 1. Embedded Challenge Data
 # Using the provided sample data for Dominion Energy South Carolina (DESC) and Georgia Power (GPC)
-PROJECTS_CSV = """project_id,utility,state,project_name,lat_center,lon_center,in_service_date
-DESC_1,Dominion Energy South Carolina,SC,Stevens Creek - Hooks 115 kV / LR Plumb Branch 46 kV Rebuilds,33.562599,-82.051362,12/31/2024
-DESC_2,Dominion Energy South Carolina,SC,Hooks - Thurmond 115 kV Tie: Rebuild,33.660127,-82.195931,12/31/2024
-DESC_3,Dominion Energy South Carolina,SC,Jasper - Okatie 230 kV #2: Construct,32.346439,-81.0785475,12/31/2025
-DESC_4,Dominion Energy South Carolina,SC,Queensboro - Ft Johnson 115 kV,32.722793,-79.967332,12/31/2023
-DESC_5,Dominion Energy South Carolina,SC,Okatie-Bluffton 115 kV: Rebuild,32.2843925,-80.9429395,6/1/2025
-GPC_1,Georgia Power,GA,EVANS PRIMARY - THURMOND DAM (USA) #5 115KV REBUILD,33.6020605,-82.1822895,6/1/2033
-GPC_2,Georgia Power,GA,SAV: MCINTOSH - PURRYSBURG 230KV REACTORS,32.352116,-81.175112,6/1/2026
-GPC_3,Georgia Power,GA,SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD,32.3004085,-81.1957885,6/1/2027
-GPC_4,Georgia Power,GA,MITCHELL - NORTH TIFTON 230KV RECONDUCTOR,31.462605,-83.8414865,5/1/2025
-GPC_5,Georgia Power,GA,JESUP - LUDOWICI PRIMARY 115KV REBUILD,31.6623515,-81.834325,6/1/2025"""
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate the great circle distance in miles between two points on the earth."""
