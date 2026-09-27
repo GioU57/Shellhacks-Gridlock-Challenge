@@ -60,9 +60,4 @@ run.bat
 
 1. Push this repository to GitHub. Ensure your `venv/` folder is listed in your `.gitignore`.
 2. Visit [share.streamlit.io](https://share.streamlit.io/?utm_source=gemini).
-<<<<<<< HEAD
 3. Connect your repository, select `app.py` as the main file, and click **Deploy**!
->>>>>>> 0820ac1 (Initial commit for Gridlock challenge app)
-=======
-3. Connect your repository, select `app.py` as the main file, and click **Deploy**!
->>>>>>> 0820ac1d4267c350c3620cfa17c0a889b6bc78fb
