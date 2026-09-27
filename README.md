@@ -1,7 +1,5 @@
 # Shellhacks-Gridlock-Challenge
 =======
-=======
->>>>>>> 0820ac1d4267c350c3620cfa17c0a889b6bc78fb
 # Gridlock: Bridging the Utility Infrastructure Coordination Gap
 
 A Streamlit web application that identifies geographic and temporal overlaps between planned transmission construction projects of neighboring electric utilities, specifically **Dominion Energy South Carolina (DESC)** and **Georgia Power (GPC)**.
